@@ -20,7 +20,7 @@ def save_data():
         messagebox.showerror("Error", "All fields must be filled.")
         return
 
-    # Save data to Excel file
+    # Save data to Excel file #use path of the excel file according to your local device
     filepath = r"C:\Users\infin\.jupyter\Book1.xlsx"
     
     try:
